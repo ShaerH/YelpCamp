@@ -19,3 +19,6 @@
 # 5. Style the campgrounds page
 * Add a better Header/title
 * Make Campgrounds diplay in a grid
+
+# 6. Add a mongodb database
+* Change code to work with a database
