@@ -21,4 +21,19 @@
 * Make Campgrounds diplay in a grid
 
 # 6. Add a mongodb database
-* Change code to work with a database
+* Install and configure Mongoose
+* Setup campground model
+* Use campground model inside our routes
+
+# 7. Show Page
+* Review Restfull routes
+* Add discription to campground model
+* Add a show route/template
+
+Restful Routes
+name    url         verb    desc.
+======================================================
+INDEX   /camp       GET     display a list of all
+NEW     /camp/new   GET     Display form to make a new
+CREAT   /camp       POST    Add new to Database
+Show    /camp/:id   GET     Show info about one
