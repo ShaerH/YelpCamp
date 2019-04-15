@@ -37,3 +37,8 @@ INDEX   /camp       GET     display a list of all
 NEW     /camp/new   GET     Display form to make a new
 CREAT   /camp       POST    Add new to Database
 Show    /camp/:id   GET     Show info about one
+
+# 8 Refactor Mongoose Code
+* Create a models directory
+* Use module.exports
+* Require everything correctly
