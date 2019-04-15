@@ -42,3 +42,7 @@ Show    /camp/:id   GET     Show info about one
 * Create a models directory
 * Use module.exports
 * Require everything correctly
+
+# 9 Add Seeds File
+* Add seeds.js file
+* Run the seeds file every time the server starts
