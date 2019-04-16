@@ -46,3 +46,7 @@ Show    /camp/:id   GET     Show info about one
 # 9 Add Seeds File
 * Add seeds.js file
 * Run the seeds file every time the server starts
+
+# 10 Add the comments model
+* Make our errors go away
+* Display comments on campground show page 

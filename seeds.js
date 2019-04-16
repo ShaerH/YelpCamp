@@ -1,6 +1,6 @@
-var mongoose = require("mongoose");
-var Campground = require("./models/campground");
-var Comment   = require("./models/comment");
+let mongoose = require("mongoose"),
+Campground = require("./models/campground"),
+Comment   = require("./models/comment");
  
 var data = [
     {
@@ -50,7 +50,7 @@ function seedDB(){
                                 } else {
                                     campground.comments.push(comment);
                                     campground.save();
-                                    console.log("Created new comment");
+                                    console.log("Comment Created");
                                 }
                             });
                     }
