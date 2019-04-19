@@ -29,7 +29,7 @@
 * Review Restfull routes
 * Add discription to campground model
 * Add a show route/template
-
+```
 Restful Routes
 name    url         verb    desc.
 ======================================================
@@ -38,6 +38,15 @@ NEW     /camp/new   GET     Display form to make a new
 CREAT   /camp       POST    Add new to Database
 Show    /camp/:id   GET     Show info about one
 
+INDEX   /campgrounds
+NEW     /campgrounds/new
+CREATE  /campgrounds
+SHOW    /campgrounds/:id
+
+NEW     /campgrounds/:id/comments/new   GET
+CREATE  /campgrounds/:id/comments       POST
+
+```
 # 8 Refactor Mongoose Code
 * Create a models directory
 * Use module.exports
@@ -50,3 +59,12 @@ Show    /camp/:id   GET     Show info about one
 # 10 Add the comments model
 * Make our errors go away
 * Display comments on campground show page 
+
+# 11 Comment NEW/CREATE
+* Discuss nested routes
+* Add the comment new and create routes
+* Add the new comment form
+
+# Show page Styling
+* Add Sidebar to show page
+* Display comments nicely
