@@ -65,6 +65,12 @@ CREATE  /campgrounds/:id/comments       POST
 * Add the comment new and create routes
 * Add the new comment form
 
-# Show page Styling
+# 12 Show page Styling
 * Add Sidebar to show page
 * Display comments nicely
+
+# 13 Intro to Auth
+* Tools = Passport, Passport local, Passport local mongoose
+* Auth flow
+* Express-session
+
