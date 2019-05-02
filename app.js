@@ -7,6 +7,7 @@ let express         = require("express"),
     User            = require("./models/user"),
     Campground      = require("./models/campground.js"),
     Comment         = require("./models/comment"),
+    methodOverride  = require("method-override"),
     seedDB          = require("./seeds");
 
 var commentRoutes = require("./routes/comments"),
@@ -23,6 +24,7 @@ mongoose.connect('mongodb://localhost:27017/yelp_camp', { useNewUrlParser: true 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname+ "/public"));
+app.use(methodOverride("_method"));
 
 app.use(require("express-session")({
     secret: "Testing web project this shit is hard",
@@ -55,3 +57,4 @@ app.get("*", (req, res) => {
 app.listen(process.env.PORT, process.env.IP, () => {
     console.log("YelpCamp app has started!!");
 });
+
